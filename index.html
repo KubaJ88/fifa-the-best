@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="menu">
+        <div class="title">THE BEST FIFA 2020
+            <div class="menu__gender">
+                <div class="button button__title active">Men's</div>
+                <div class="button button__title">Women's</div>
+            </div>
+            <div class="menu__type">
+                <div class="button button__title active">Player</div>
+                <div class="button button__title">Coach</div>
+            </div>
+            <div class="winner">Robert Lewandowski</div>
+
+        </div>
+        <div class="menu-right">
+            <div class='vote'>
+                Votes by
+                <div id='coach' class="button active">Coach</div>
+                <div id='captain' class="button">Captain</div>
+                <div id='media' class="button">Media</div>
+            </div>
+            <div class="points">
+                <div id='all' class="button active">All</div>
+                <div id='1' class="button">1</div>
+                <div id='3' class="button">3</div>
+                <div id='5' class="button">5</div>
+            </div>
+        </div>
+    </div>
+    <div class="viz"></div>
+    <svg class="legend"></svg>
+    <div class="source">Source: fifa.com</div>
+
+    <script src="./app_lines.js"></script>
+</body>
+
+</html>
