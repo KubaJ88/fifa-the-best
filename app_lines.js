@@ -576,11 +576,11 @@ const loadData = async () => {
       .attr("x1", (d, i) => {
         return 5 + i * 100
       })
-      .attr("y1", 50)
+      .attr("y1", 10)
       .attr("x2", (d, i) => {
         return 20 + i * 100
       })
-      .attr("y2", 50)
+      .attr("y2", 10)
 
       // .attr("r", 7)
       .style('stroke', d => d == 5 ? color1 :
@@ -595,7 +595,7 @@ const loadData = async () => {
       .attr("x", (d, i) => {
         return 25 + i * 100
       })
-      .attr("y", 50)
+      .attr("y", 10)
 
       .style("fill", '#FBF1DA')
       .text(d => `${d} points`)

@@ -7,6 +7,7 @@ body {
     font-weight: 400;
     /* fill: #242424; */
     text-align: center;
+    box-sizing: border-box;
    
     cursor: default;
     /* display: flex; */
@@ -113,12 +114,13 @@ body {
 }
 
 .legend { 
-    position:absolute;
+    /* position: ; */
     /* background-color: royalblue; */
     width: auto;
-    height: 100px;
-    bottom: 0;
-    left: 40%;
+    height: 20px;
+    transform: translateY(-50px);
+    /* bottom: 0; */
+    /* left: 40%; */
 }
 
 .title { 
@@ -212,9 +214,11 @@ body {
 
 
 .source {
-    position: absolute;
+    /* position: relative; */
+    display: inline-block;
     color: #FBF1DA;
-    right: 10px;
-    bottom: 10px;
+    transform: translate(600px, -55px);
+    /* right: 50; */
+    /* bottom: 10px; */
     font-size: 9px;
 }
